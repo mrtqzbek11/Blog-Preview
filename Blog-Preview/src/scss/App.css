@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans&family=Dancing+Script:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner&family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400&family=Quicksand:wght@300;400&family=Raleway:wght@100;200&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&family=Work+Sans:wght@300;500;600&display=swap");
+.preview-header-box .preview-header, .preview-autohor-box .author-text .author-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.preview-header-box .preview, .preview-autohor-box .author-text .date {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #b6b6b6;
+}
+
+.preview-header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1px;
+}
+
+.preview-autohor-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.blog-preview-box {
+  width: 300px;
+  height: 450px;
+  background: #212529;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.img-box {
+  width: 100%;
+  height: 200px;
+}
+
+.img-box .img {
+  width: 100%;
+  height: 100%;
+}
+
+.preview-header-box {
+  width: 95%;
+  height: auto;
+  padding: 15px 10px;
+}
+
+.preview-autohor-box {
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+.preview-autohor-box .author-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.preview-autohor-box .author-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.preview-autohor-box .author-text {
+  width: 70%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.preview-autohor-box .author-text .date {
+  font-size: 11px;
+}
+/*# sourceMappingURL=App.css.map */
